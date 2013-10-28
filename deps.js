@@ -267,6 +267,7 @@
             }
 
             this.controls.push(input);
+            return this;
         },
 
         /**
