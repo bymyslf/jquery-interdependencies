@@ -158,7 +158,7 @@
             } else if(condition == "!=") {
                 return val1 != val2;
             } else if(condition == "()") {
-                return val1(context, control, val1, val2);
+                return val1(context, control, val2);
             } else if(condition == "any") {
                 return $.inArray(val2, val1) > -1;
             } else if(condition == "not-any") {
